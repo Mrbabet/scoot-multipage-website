@@ -11,8 +11,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
+  padding: 0;
 }
 
 html,
@@ -89,12 +91,11 @@ nav {
 }
 
 .hero {
-  height: 100vh;
-  background-image: url(/starter-code/assets/images/home-hero-mobile.jpg);
+  height: 75vh;
+  background-image: url(assets/images/home-hero-mobile.jpg);
   background-repeat: no-repeat;
 }
 .hero .hero-wrapper {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,10 +110,51 @@ nav {
   text-align: center;
 }
 
+.hero:before {
+  content: "";
+  background-image: url(/assets/patterns/right-arrow.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 450px;
+  height: 160px;
+  bottom: 0;
+  left: 0;
+  transform: translate(-65%, -90%);
+}
+
 .button-container button {
   padding: 1rem 3rem;
   background-color: #fcb72b;
   color: white;
   border: 0;
   outline: 0;
+}
+
+.section-1-wrapper {
+  margin-inline: 32px;
+  margin-block: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.section-1-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.section-1-content .img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.section-1-content .img img {
+  width: 56px;
+  height: 56px;
+}
+.section-1-content h2 {
+  text-align: center;
+}
+.section-1-content p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
