@@ -198,13 +198,14 @@ nav {
   padding-bottom: 24px;
   padding-left: 32px;
   position: absolute;
-  height: 100%;
+  height: calc(100vh - 84px);
   background-color: #333a44;
   width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transform: translate(0%);
+  z-index: 10;
 
   ul {
     margin: 0;
@@ -218,13 +219,11 @@ nav {
   }
 }
 .hero {
-  height: calc(650px - 84px);
-
+  height: 650px;
   background-image: url(assets/images/home-hero-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  overflow: hidden;
 
   .hero-wrapper {
     display: flex;
