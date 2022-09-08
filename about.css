@@ -1,0 +1,35 @@
+body.active {
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.about.active {
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.807);
+  height: 100vh;
+}
+
+.about {
+  height: 375px;
+  background-image: url(assets/images/about-hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.about .about-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
+.about .about-wrapper h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -1.78571px;
+}/*# sourceMappingURL=about.css.map */
