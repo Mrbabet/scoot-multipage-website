@@ -191,6 +191,12 @@ nav {
     color: white;
     list-style: none;
     text-transform: uppercase;
+
+    li {
+      a {
+        text-decoration: none;
+      }
+    }
   }
 }
 .nav-mobile.active {
@@ -216,6 +222,12 @@ nav {
     color: white;
     list-style: none;
     text-transform: uppercase;
+    li {
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
   }
 }
 .hero {
@@ -477,6 +489,12 @@ footer {
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      li {
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
     }
   }
   .footer-sc {
@@ -506,6 +524,12 @@ footer {
         list-style: none;
         display: flex;
         gap: 2rem;
+        li {
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
       }
     }
     .burger-button-container {
@@ -799,6 +823,12 @@ footer {
         display: flex;
         flex-direction: row;
         gap: 1rem;
+        li {
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
       }
     }
     .footer-sc {

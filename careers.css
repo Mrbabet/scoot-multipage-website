@@ -1,0 +1,77 @@
+.careers {
+  height: 375px;
+  background-image: url(assets/images/careers-location-hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.careers .careers-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
+.careers .careers-wrapper h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -1.78571px;
+}
+
+.careers-section-1-wrapper {
+  margin-inline: 32px;
+  margin-block: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.careers-section-1-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.careers-section-1-content .img-big img {
+  border-radius: 50%;
+}
+.careers-section-1-content .careers-section-1-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.careers-section-1-content .careers-section-1-content-text h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -1.42857px;
+}
+.careers-section-1-content .careers-section-1-content-text p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+.careers-section-1-content h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -1.42857px;
+}
+.careers-section-1-content p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+.careers-section-1-content .button-container {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=careers.css.map */
