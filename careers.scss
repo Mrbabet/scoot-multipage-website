@@ -34,6 +34,8 @@
   flex-direction: column;
   gap: 24px;
   .img-big {
+    display: flex;
+    justify-content: center;
     img {
       border-radius: 50%;
     }
@@ -76,5 +78,29 @@
   .button-container {
     display: flex;
     justify-content: center;
+  }
+}
+
+.box-container-section {
+  .box-container-section-wrapper {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    margin-inline: 32px;
+    .box-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 36px 32px;
+      background-color: #f2f5f9;
+
+      h4 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    }
   }
 }

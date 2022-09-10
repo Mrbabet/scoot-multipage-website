@@ -35,6 +35,10 @@
   flex-direction: column;
   gap: 24px;
 }
+.careers-section-1-content .img-big {
+  display: flex;
+  justify-content: center;
+}
 .careers-section-1-content .img-big img {
   border-radius: 50%;
 }
@@ -74,4 +78,25 @@
 .careers-section-1-content .button-container {
   display: flex;
   justify-content: center;
+}
+
+.box-container-section .box-container-section-wrapper {
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+  margin-inline: 32px;
+}
+.box-container-section .box-container-section-wrapper .box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 32px;
+  background-color: #f2f5f9;
+}
+.box-container-section .box-container-section-wrapper .box-container h4 {
+  text-align: center;
+}
+.box-container-section .box-container-section-wrapper .box-container p {
+  text-align: center;
 }/*# sourceMappingURL=careers.css.map */

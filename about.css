@@ -296,7 +296,7 @@ body.active {
 @media screen and (min-width: 700px) {
   .about {
     height: 200px;
-    background-image: url(assets/images/about-hero-mobile.jpg);
+    background-image: url(assets/images/about-hero-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -566,6 +566,9 @@ body.active {
   }
 }
 @media screen and (min-width: 1100px) {
+  .about {
+    background-image: url(/assets/images/about-hero-desktop.jpg);
+  }
   .about .about-wrapper {
     margin-inline: 165px;
   }
