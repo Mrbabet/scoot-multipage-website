@@ -104,3 +104,220 @@
     }
   }
 }
+@media screen and (min-width: 700px) {
+  .careers {
+    height: 200px;
+    background-image: url(assets/images/careers-locations-hero-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .careers-wrapper {
+      margin-inline: 100px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: white;
+      overflow: hidden;
+      h1 {
+        text-align: left;
+        margin-bottom: 24px;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.78571px;
+      }
+    }
+  }
+  .careers-section-1-wrapper {
+    margin-inline: 32px;
+    margin-block: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+  }
+  .careers-section-1-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    .img-big {
+      display: flex;
+      justify-content: center;
+      img {
+        border-radius: 50%;
+      }
+    }
+    .careers-section-1-content-text {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      h2 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -1.42857px;
+      }
+      p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -1.42857px;
+    }
+    p {
+      text-align: center;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .box-container-section {
+    margin-block: 120px;
+    .box-container-section-wrapper {
+      flex-direction: column;
+      display: flex;
+      gap: 1rem;
+      margin-inline: 32px;
+      .box-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 36px 32px;
+        background-color: #f2f5f9;
+
+        h4 {
+          text-align: left;
+        }
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1100px) {
+  .careers {
+    height: 200px;
+    background-image: url(assets/images/careers-locations-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .careers-wrapper {
+      margin-inline: 165px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: white;
+      overflow: hidden;
+      h1 {
+        text-align: left;
+        margin-bottom: 24px;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.78571px;
+      }
+    }
+  }
+  .careers-section-1-wrapper {
+    margin-inline: 165px;
+    margin-block: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+  }
+  .careers-section-1-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 24px;
+    .img-big {
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 445px;
+        border-radius: 50%;
+      }
+    }
+    .careers-section-1-content-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 24px;
+
+      h2 {
+        text-align: left;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -1.42857px;
+      }
+      p {
+        text-align: left;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -1.42857px;
+    }
+    p {
+      text-align: center;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .box-container-section {
+    margin-block: 120px;
+    .box-container-section-wrapper {
+      flex-direction: column;
+      display: flex;
+      gap: 1rem;
+      margin-inline: 165px;
+      .box-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 36px 32px;
+        background-color: #f2f5f9;
+
+        h4 {
+          text-align: left;
+        }
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
