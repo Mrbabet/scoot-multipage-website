@@ -598,7 +598,7 @@ footer .footer-sc ul {
     position: absolute;
     left: 0;
     bottom: 0;
-    transform: translate(-6rem, 10rem);
+    transform: translate(8rem, 10rem);
     z-index: -1;
   }
   .section-1-content {
@@ -914,7 +914,7 @@ footer .footer-sc ul {
     position: absolute;
     left: 0;
     bottom: 0;
-    transform: translate(0rem, -11.5rem);
+    transform: translate(0rem, 5rem);
     z-index: -1;
   }
   .section-1-content {
