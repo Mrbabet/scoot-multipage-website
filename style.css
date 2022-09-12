@@ -626,7 +626,7 @@ footer .footer-sc ul {
   .section-1-content h2 {
     text-align: left;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 28px;
   }
   .section-1-content p {
@@ -944,8 +944,9 @@ footer .footer-sc ul {
   .section-1-content h2 {
     text-align: left;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 28px;
+    letter-spacing: -1px;
   }
   .section-1-content p {
     text-align: left;

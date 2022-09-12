@@ -122,9 +122,12 @@
       h1 {
         text-align: left;
         margin-bottom: 24px;
-        font-size: 40px;
-        line-height: 40px;
-        letter-spacing: -1.78571px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        /* identical to box height, or 100% */
+
+        letter-spacing: -2.5px;
       }
     }
   }
@@ -152,11 +155,13 @@
       gap: 24px;
 
       h2 {
-        text-align: center;
         font-weight: 700;
-        font-size: 32px;
-        line-height: 32px;
-        letter-spacing: -1.42857px;
+        font-size: 48px;
+        line-height: 48px;
+        /* or 100% */
+
+        text-align: center;
+        letter-spacing: -2.14286px;
       }
       p {
         text-align: center;
@@ -204,9 +209,19 @@
 
         h4 {
           text-align: left;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          /* identical to box height, or 117% */
+
+          letter-spacing: -1.07143px;
         }
         p {
           text-align: left;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          /* identical to box height, or 167% */
         }
       }
     }
@@ -229,10 +244,10 @@
       overflow: hidden;
       h1 {
         text-align: left;
-        margin-bottom: 24px;
-        font-size: 40px;
-        line-height: 40px;
-        letter-spacing: -1.78571px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
       }
     }
   }
@@ -263,11 +278,10 @@
       gap: 24px;
 
       h2 {
-        text-align: left;
         font-weight: 700;
-        font-size: 32px;
-        line-height: 32px;
-        letter-spacing: -1.42857px;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
       }
       p {
         text-align: left;
@@ -313,6 +327,12 @@
 
         h4 {
           text-align: left;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          /* identical to box height, or 117% */
+
+          letter-spacing: -1.07143px;
         }
         p {
           text-align: left;

@@ -115,6 +115,8 @@ body.active {
     position: absolute;
   }
 }
+
+// VALUES SECTION
 .values-section {
   header {
     h2 {
@@ -126,24 +128,12 @@ body.active {
     }
   }
 }
-
-// VALUES SECTION
-
 .values-section-wrapper {
   margin-inline: 32px;
   margin-block: 120px;
   display: flex;
   flex-direction: column;
   gap: 56px;
-  header {
-    h2 {
-      text-align: center;
-      font-weight: 700;
-      font-size: 32px;
-      line-height: 32px;
-      letter-spacing: -1.42857px;
-    }
-  }
 }
 
 .values-section-content {
@@ -252,6 +242,10 @@ body.active {
   header {
     h2 {
       text-align: center;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -1.42857px;
     }
   }
 }
@@ -278,9 +272,6 @@ body.active {
     font-size: 24px;
     line-height: 28px;
     margin-block: 16px;
-
-    /* identical to box height, or 117% */
-
     text-align: center;
     letter-spacing: -1.07143px;
   }
@@ -288,9 +279,6 @@ body.active {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-
-    /* or 133% */
-
     letter-spacing: -0.803571px;
   }
   .faq-content {
@@ -337,10 +325,10 @@ body.active {
       h1 {
         text-align: center;
         margin-bottom: 24px;
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 56px;
+        line-height: 56px;
         text-align: center;
-        letter-spacing: -1.78571px;
+        letter-spacing: -2.5px;
       }
     }
   }
@@ -371,12 +359,12 @@ body.active {
     flex-direction: column;
     gap: 24px;
 
-    h3 {
+    h2 {
       text-align: center;
       font-weight: 700;
-      font-size: 32px;
-      line-height: 32px;
-      letter-spacing: -1.42857px;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14px;
     }
     p {
       text-align: center;
@@ -443,9 +431,9 @@ body.active {
       h2 {
         text-align: center;
         font-weight: 700;
-        font-size: 32px;
-        line-height: 32px;
-        letter-spacing: -1.42857px;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14px;
       }
     }
   }
@@ -458,15 +446,6 @@ body.active {
     display: flex;
     flex-direction: column;
     gap: 56px;
-    header {
-      h2 {
-        text-align: center;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 32px;
-        letter-spacing: -1.42857px;
-      }
-    }
   }
 
   .values-section-content {
@@ -575,6 +554,11 @@ body.active {
     header {
       h2 {
         text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -2.14286px;
       }
     }
   }
@@ -587,23 +571,20 @@ body.active {
 
     h3 {
       font-weight: 700;
-      font-size: 24px;
-      line-height: 28px;
-      margin-block: 16px;
-
-      /* identical to box height, or 117% */
+      font-size: 40px;
+      line-height: 48px;
+      /* identical to box height, or 120% */
 
       text-align: center;
-      letter-spacing: -1.07143px;
+      letter-spacing: -1.78571px;
     }
     h4 {
       font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 24px;
+      line-height: 28px;
+      /* identical to box height, or 117% */
 
-      /* or 133% */
-
-      letter-spacing: -0.803571px;
+      letter-spacing: -1.07143px;
     }
     .faq-content {
       background-color: #f2f5f9;
@@ -654,9 +635,9 @@ body.active {
     h2 {
       text-align: left;
       font-weight: 700;
-      font-size: 32px;
-      line-height: 32px;
-      letter-spacing: -1.42857px;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14286px;
     }
     p {
       text-align: left;
@@ -720,11 +701,11 @@ body.active {
   .values-section {
     header {
       h2 {
-        text-align: center;
         font-weight: 700;
-        font-size: 32px;
-        line-height: 32px;
-        letter-spacing: -1.42857px;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -2.14286px;
       }
     }
   }
@@ -842,7 +823,11 @@ body.active {
   .faq {
     header {
       h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
         text-align: center;
+        letter-spacing: -2.14286px;
       }
     }
   }
@@ -867,17 +852,17 @@ body.active {
 
     h3 {
       font-weight: 700;
-      font-size: 24px;
-      line-height: 28px;
-      margin-block: 16px;
-      text-align: center;
-      letter-spacing: -1.07143px;
+      font-size: 40px;
+      line-height: 48px;
+      /* identical to box height, or 120% */
+
+      letter-spacing: -1.78571px;
     }
     h4 {
       font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: -0.803571px;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07143px;
     }
     .faq-content {
       background-color: #f2f5f9;
