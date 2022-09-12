@@ -60,10 +60,11 @@
     .locations-text {
       color: white;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       width: 100%;
       height: 100%;
+      margin-inline: 100px;
     }
   }
 }
@@ -76,10 +77,11 @@
     .locations-text {
       color: white;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       width: 100%;
       height: 100%;
+      margin-inline: 165px;
     }
   }
 }
