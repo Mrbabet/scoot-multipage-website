@@ -27,8 +27,8 @@
     margin-bottom: 40px;
     background-position: center;
     background-image: url(/assets/images/world-map-mobile.png);
-    min-width: 311px;
-    min-height: 152px;
+    width: 100%;
+    height: 152px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -66,8 +66,6 @@
       font-weight: 700;
       font-size: 32px;
       line-height: 32px;
-      /* or 100% */
-
       text-align: center;
       letter-spacing: -1.42857px;
     }
@@ -83,7 +81,7 @@
 
 @media screen and (min-width: 700px) {
   .locations-wrapper {
-    background-image: url(/assets/images/careers-locations-hero-tablet.jpg);
+    background-image: url(/assets/images/careers-location-hero-mobile.jpg);
     background-size: cover;
     height: 200px;
 
@@ -94,7 +92,13 @@
       align-items: center;
       width: 100%;
       height: 100%;
-      margin-inline: 100px;
+      margin-inline: 120px;
+      h1 {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+      }
     }
   }
   .city-listed {
@@ -103,6 +107,11 @@
       margin-inline: 32px;
       h3 {
         text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -2.14286px;
       }
       p {
         text-align: center;
@@ -111,6 +120,21 @@
     .button-container {
       display: flex;
       justify-content: center;
+    }
+  }
+  .world-map-section {
+    margin: 140px 32px 40px 32px;
+    .world-map-img {
+      margin-bottom: 0;
+      background-position: center;
+      background-image: url(/assets/images/world-map-tablet.png);
+      width: 100%;
+      height: 347px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .world-map-box-mobile {
+      display: none;
     }
   }
 }
@@ -128,6 +152,49 @@
       width: 100%;
       height: 100%;
       margin-inline: 165px;
+    }
+  }
+  .world-map-section {
+    margin: 120px 165px 120px 165px;
+
+    .world-map-img {
+      background-image: url(/assets/images/world-map-desktop.png);
+      background-position: center;
+      width: 100%;
+      height: 543px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin: 0;
+    }
+  }
+  .city-listed {
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-inline: 165px;
+    .city-listed-wrapper {
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      justify-items: flex-start;
+      align-items: center;
+      h3 {
+        text-align: left;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        flex-basis: 450px;
+      }
+      p {
+        text-align: left;
+        flex-basis: 550px;
+      }
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
     }
   }
 }

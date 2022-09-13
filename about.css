@@ -772,7 +772,6 @@ body.active {
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    /* identical to box height, or 120% */
     letter-spacing: -1.78571px;
   }
   .faq-section-wrapper h4 {
