@@ -245,6 +245,9 @@ nav {
     padding-top: 80px;
     color: white;
     overflow: hidden;
+    position: absolute;
+    z-index: 10;
+
     h1 {
       text-align: center;
       margin-bottom: 24px;
@@ -511,6 +514,16 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
+  .button-container {
+    button:hover {
+      background-color: transparent;
+      color: #fcb72b;
+      border: 3px solid #fcb72b;
+      outline: 0;
+      z-index: 100;
+      cursor: pointer;
+    }
+  }
   .nav-wrapper {
     display: flex;
     justify-content: space-between;
@@ -528,6 +541,13 @@ footer {
           a {
             text-decoration: none;
             color: black;
+          }
+        }
+        li:hover {
+          a {
+            text-decoration: none;
+            color: #fcb72b;
+            cursor: pointer;
           }
         }
       }
@@ -589,7 +609,6 @@ footer {
     bottom: 0;
     left: 0;
     transform: translate(-10rem, -4rem);
-    overflow: hidden;
   }
   .hero::after {
     content: url(/assets/patterns/white-circles.svg);
@@ -829,6 +848,12 @@ footer {
             color: white;
           }
         }
+        li:hover {
+          a {
+            text-decoration: none;
+            color: #fcb72b;
+          }
+        }
       }
     }
     .footer-sc {
@@ -840,6 +865,12 @@ footer {
         color: white;
         display: flex;
         gap: 1rem;
+        svg:hover {
+          cursor: pointer;
+          path {
+            fill: white;
+          }
+        }
       }
     }
   }
@@ -933,7 +964,7 @@ footer {
     background-repeat: no-repeat;
     bottom: 0;
     right: 0;
-    background-position: 75.325rem 27rem;
+    background-position: 78.325rem 27rem;
     margin: 0;
     padding: 0;
   }

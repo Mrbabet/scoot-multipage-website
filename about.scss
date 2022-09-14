@@ -588,6 +588,7 @@ body.active {
     }
     .faq-content {
       background-color: #f2f5f9;
+
       .visible {
         display: flex;
         justify-content: space-between;
@@ -604,10 +605,13 @@ body.active {
       }
       .toggle.active {
         display: block;
-        background-color: #f2f5f9;
+        background-color: #fff4df;
         padding-inline: 32px;
         padding-bottom: 24px;
       }
+    }
+    .faq-content:hover {
+      background-color: #fff4df;
     }
   }
 }

@@ -241,6 +241,8 @@ nav {
   padding-top: 80px;
   color: white;
   overflow: hidden;
+  position: absolute;
+  z-index: 10;
 }
 .hero .hero-wrapper h1 {
   text-align: center;
@@ -499,6 +501,14 @@ footer .footer-sc ul {
 }
 
 @media screen and (min-width: 700px) {
+  .button-container button:hover {
+    background-color: transparent;
+    color: #fcb72b;
+    border: 3px solid #fcb72b;
+    outline: 0;
+    z-index: 100;
+    cursor: pointer;
+  }
   .nav-wrapper {
     display: flex;
     justify-content: space-between;
@@ -518,6 +528,11 @@ footer .footer-sc ul {
   .nav-wrapper .nav-desktop ul li a {
     text-decoration: none;
     color: black;
+  }
+  .nav-wrapper .nav-desktop ul li:hover a {
+    text-decoration: none;
+    color: #fcb72b;
+    cursor: pointer;
   }
   .nav-wrapper .burger-button-container {
     display: none;
@@ -573,7 +588,6 @@ footer .footer-sc ul {
     bottom: 0;
     left: 0;
     transform: translate(-10rem, -4rem);
-    overflow: hidden;
   }
   .hero::after {
     content: url(/assets/patterns/white-circles.svg);
@@ -798,6 +812,10 @@ footer .footer-sc ul {
     text-decoration: none;
     color: white;
   }
+  footer .footer-nav ul li:hover a {
+    text-decoration: none;
+    color: #fcb72b;
+  }
   footer .footer-sc ul {
     margin: 0;
     padding: 0;
@@ -806,6 +824,12 @@ footer .footer-sc ul {
     color: white;
     display: flex;
     gap: 1rem;
+  }
+  footer .footer-sc ul svg:hover {
+    cursor: pointer;
+  }
+  footer .footer-sc ul svg:hover path {
+    fill: white;
   }
 }
 @media screen and (min-width: 1100px) {
@@ -892,7 +916,7 @@ footer .footer-sc ul {
     background-repeat: no-repeat;
     bottom: 0;
     right: 0;
-    background-position: 75.325rem 27rem;
+    background-position: 78.325rem 27rem;
     margin: 0;
     padding: 0;
   }
