@@ -31,6 +31,9 @@
     height: 152px;
     background-size: contain;
     background-repeat: no-repeat;
+    .city-map {
+      display: none;
+    }
   }
   .world-map-box-mobile {
     display: flex;
@@ -132,6 +135,36 @@
       height: 347px;
       background-size: contain;
       background-repeat: no-repeat;
+      .city-map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 190px;
+        height: 80px;
+        background-color: #fcb72b;
+      }
+      .city-map:before {
+        content: "";
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        rotate: 45deg;
+        background-color: #fcb72b;
+        translate: 0px 40px;
+      }
+      .city-map:nth-of-type(1) {
+        translate: 6rem 6rem;
+      }
+      .city-map:nth-of-type(2) {
+        translate: 20rem 3rem;
+      }
+      .city-map:nth-of-type(3) {
+        translate: 42rem 6rem;
+      }
+      .city-map:nth-of-type(4) {
+        translate: 38rem 14rem;
+      }
     }
     .world-map-box-mobile {
       display: none;
